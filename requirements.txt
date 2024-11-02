@@ -4,6 +4,7 @@ accelerate
 deepspeed
 evaluate
 matplotlib
+mpi4py
 hydra-core
 omegaconf
 peft
