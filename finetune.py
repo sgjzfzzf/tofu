@@ -39,7 +39,7 @@ def print_trainable_parameters(model):
     )
 
 
-@hydra.main(version_base=None, config_path="config", config_name="finetune")
+@hydra.main(version_base=None, config_path="config", config_name="finetune_qwen")
 def main(cfg):
     if os.environ.get("LOCAL_RANK") is not None:
         local_rank = int(os.environ.get("LOCAL_RANK", "0"))
